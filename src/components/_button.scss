@@ -1,0 +1,56 @@
+button,
+.button {
+  font-size: .875rem;
+  text-decoration: none;
+  text-align: center;
+  color: var(--dark);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 1em 3em;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  user-drag: none;
+
+  &:active {
+    background: var(--gray-100);
+  }
+}
+
+.button-primary {
+  color: var(--white);
+  background-color: var(--blue-500);
+
+  &:active {
+    background-color: var(--blue-600);
+  }
+}
+
+.button-success {
+  color: var(--white);
+  background-color: var(--green-500);
+
+  &:active {
+    background-color: var(--green-600);
+  }
+}
+
+.button-danger {
+  color: var(--white);
+  background-color: var(--red-500);
+
+  &:active {
+    background-color: var(--red-600);
+  }
+}
+
+.button-warning {
+  color: var(--white);
+  background-color: var(--yellow-500);
+
+  &:active {
+    background-color: var(--yellow-600);
+  }
+}
+
+

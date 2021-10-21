@@ -1,0 +1,58 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #272727;
+
+  --gray-100: #F9F9F9;
+  --gray-200: #EDEDED;
+  --gray-300: #C4C4C4;
+  --gray-400: #7B7B7B;
+
+  --green-100: #E8F6EE;
+  --green-200: #D0EDDC;
+  --green-300: #B9E3CB;
+  --green-400: #43B575;
+  --green-500: #14A352;
+  --green-600: #12934A;
+
+  --blue-100: #E6F7FF;
+  --blue-200: #CCEEFF;
+  --blue-300: #B3E6FF;
+  --blue-400: #33BCFF;
+  --blue-500: #00ABFF;
+  --blue-600: #009AE6;
+
+  --red-100: #FDE9EC;
+  --red-200: #FBD2DA;
+  --red-300: #F8BCC7;
+  --red-400: #EB3658;
+  --red-500: #E92045;
+  --red-600: #D21D3E;
+
+  --yellow-100: #FFF9E6;
+  --yellow-200: #FFF3CC;
+  --yellow-300: #FFEDB3;
+  --yellow-400: #FFCE33;
+  --yellow-500: #FFC200;
+  --yellow-600: #E6AF00;
+
+  --font-hero: 'Hero', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semibold: 500;
+  --font-bold: 600;
+  --font-black: 900;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 1.875rem;
+
+  --border: 1px solid var(--gray-300);
+  --border-ring: 0 0 0 3px var(--blue-300);
+  --border-radius: 4px;
+}
