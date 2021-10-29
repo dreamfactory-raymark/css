@@ -1,3 +1,4 @@
+//-------------- FORM GROUP [ START ] --------------//
 .form-group {
   width: 100%;
   display: flex;
@@ -70,19 +71,21 @@
     }
   }
 }
+//-------------- FORM GROUP [ END ] --------------//
 
+//-------------- INPUT LABEL/CONTROL/ERROR [ START ] --------------//
 .input {
   width: 100%;
   position: relative;
 
   &__label {
-    font-size: var(--text-sm);
+    font-size: var(--paragraph-small);
     font-weight: var(--font-bold);
-    margin-bottom: 5px;
     display: inline-block;
   }
 
   &__control {
+    min-width: 300px;
     display: block;
     width: 100%;
     height: 40px;
@@ -90,21 +93,32 @@
     border-radius: var(--border-radius);
     outline: none;
     padding: .5rem;
-    font-size: var(--text-sm);
+    font-size: var(--paragraph-small);
     transition: all 300ms ease;
 
     &:focus {
-      border-color: var(--blue-500);
+      border-color: var(--cyan-300);
       box-shadow: var(--border-ring);
+    }
+
+    &.error {
+      border-color: var(--red-600);
+
+      &:focus {
+        border-color: var(--red-600);
+        box-shadow: var(--border-ring-error);
+      }
     }
   }
 
   &__error {
     color: var(--red-400);
-    font-size: var(--text-xs);
+    font-size: var(--paragraph-extra-small);
   }
 }
+//-------------- INPUT LABEL/CONTROL/ERROR [ END ] --------------//
 
+//-------------- INPUT GROUP [ START ] --------------//
 .input-group {
   width: 100%;
 
@@ -121,7 +135,7 @@
     box-shadow: none;
 
     &:focus {
-      border-color: var(--blue-500);
+      border-color: var(--cyan-300);
       box-shadow: var(--border-ring);
     }
   }
@@ -133,10 +147,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--gray-200);
+    background-color: var(--gray-100);
     border-right: var(--border);
     border-top-left-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
-    color: var(--gray-400);
+    color: var(--gray-500);
   }
 }
+//-------------- INPUT GROUP [ END ] --------------//

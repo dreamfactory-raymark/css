@@ -1,0 +1,30 @@
+table {
+  margin: auto;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: var(--box-shadow-sm);
+  background-color: var(--white);
+  text-align: left;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+
+  thead {
+    box-shadow: var(--box-shadow-sm);
+  }
+
+  th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--gray-50);
+  }
+}

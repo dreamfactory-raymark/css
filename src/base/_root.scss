@@ -1,41 +1,82 @@
 :root {
+//-------------- COLORS [ START ] --------------//
   --white: #ffffff;
   --black: #000000;
-  --dark: #272727;
 
-  --gray-100: #F9F9F9;
-  --gray-200: #EDEDED;
-  --gray-300: #C4C4C4;
-  --gray-400: #7B7B7B;
+  --gray-50: hsl(0, 0%, 95%);
+  --gray-100: hsl(0, 0%, 90%);
+  --gray-200: hsl(0, 0%, 85%);
+  --gray-300: hsl(0, 0%, 80%);
+  --gray-400: hsl(0, 0%, 70%);
+  --gray-500: hsl(0, 0%, 60%);
+  --gray-600: hsl(0, 0%, 50%);
+  --gray-700: hsl(0, 0%, 45%);
+  --gray-800: hsl(0, 0%, 30%);
+  --gray-900: hsl(0, 0%, 20%);
 
-  --green-100: #E8F6EE;
-  --green-200: #D0EDDC;
-  --green-300: #B9E3CB;
-  --green-400: #43B575;
-  --green-500: #14A352;
-  --green-600: #12934A;
+  --cyan-50: hsl(194, 100%, 95%);
+  --cyan-100: hsl(194, 100%, 90%);
+  --cyan-200: hsl(194, 100%, 85%);
+  --cyan-300: hsl(194, 100%, 70%);
+  --cyan-400: hsl(194, 100%, 60%);
+  --cyan-500: hsl(194, 100%, 50%);
+  --cyan-600: hsl(194, 100%, 45%);
+  --cyan-700: hsl(194, 100%, 40%);
+  --cyan-800: hsl(194, 100%, 35%);
+  --cyan-900: hsl(194, 100%, 30%);
 
-  --blue-100: #E6F7FF;
-  --blue-200: #CCEEFF;
-  --blue-300: #B3E6FF;
-  --blue-400: #33BCFF;
-  --blue-500: #00ABFF;
-  --blue-600: #009AE6;
+  --blue-50: hsl(225, 62%, 95%);
+  --blue-100: hsl(225, 64%, 85%);
+  --blue-200: hsl(225, 64%, 75%);
+  --blue-300: hsl(225, 64%, 70%);
+  --blue-400: hsl(225, 64%, 60%);
+  --blue-500: hsl(225, 64%, 55%);
+  --blue-600: hsl(225, 64%, 48%);
+  --blue-700: hsl(225, 64%, 40%);
+  --blue-800: hsl(225, 64%, 35%);
+  --blue-900: hsl(225, 64%, 30%);
 
-  --red-100: #FDE9EC;
-  --red-200: #FBD2DA;
-  --red-300: #F8BCC7;
-  --red-400: #EB3658;
-  --red-500: #E92045;
-  --red-600: #D21D3E;
+  --green-50: hsl(125, 55%, 95%);
+  --green-100: hsl(125, 55%, 85%);
+  --green-200: hsl(125, 55%, 75%);
+  --green-300: hsl(125, 55%, 65%);
+  --green-400: hsl(125, 55%, 60%);
+  --green-500: hsl(125, 55%, 52%);
+  --green-600: hsl(125, 55%, 45%);
+  --green-700: hsl(125, 55%, 40%);
+  --green-800: hsl(125, 55%, 35%);
+  --green-900: hsl(125, 55%, 30%);
 
-  --yellow-100: #FFF9E6;
-  --yellow-200: #FFF3CC;
-  --yellow-300: #FFEDB3;
-  --yellow-400: #FFCE33;
-  --yellow-500: #FFC200;
-  --yellow-600: #E6AF00;
+  --red-50: hsl(0, 100%, 95%);
+  --red-100: hsl(0, 100%, 85%);
+  --red-200: hsl(0, 100%, 75%);
+  --red-300: hsl(0, 100%, 65%);
+  --red-400: hsl(0, 100%, 55%);
+  --red-500: hsl(0, 100%, 50%);
+  --red-600: hsl(0, 100%, 45%);
+  --red-700: hsl(0, 100%, 40%);
+  --red-800: hsl(0, 100%, 35%);
+  --red-900: hsl(0, 100%, 30%);
 
+  --yellow-50: hsl(46, 100%, 95%);
+  --yellow-100: hsl(46, 100%, 85%);
+  --yellow-200: hsl(46, 100%, 75%);
+  --yellow-300: hsl(46, 100%, 65%);
+  --yellow-400: hsl(46, 100%, 60%);
+  --yellow-500: hsl(46, 100%, 52%);
+  --yellow-600: hsl(46, 100%, 45%);
+  --yellow-700: hsl(46, 100%, 40%);
+  --yellow-800: hsl(46, 100%, 35%);
+  --yellow-900: hsl(46, 100%, 30%);
+
+  // COMPANY COLORS
+  --palenke-blue-100: hsl(203, 100%, 50%);
+  --palenke-blue-200: hsl(203, 100%, 45%);
+  --palenke-blue-300: hsl(203, 100%, 40%);
+
+//-------------- COLORS [ END ] --------------//
+
+//-------------- FONT [ START ] --------------//
   --font-hero: 'Hero', sans-serif;
   --font-poppins: 'Poppins', sans-serif;
 
@@ -45,14 +86,34 @@
   --font-bold: 600;
   --font-black: 900;
 
-  --text-xs: 0.75rem;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-md: 1.125rem;
-  --text-lg: 1.5rem;
-  --text-xl: 1.875rem;
+  --display-1: 4.3rem;
+  --display-2: 3.583rem;
+  --display-3: 2.986rem;
 
+  --heading-1: 2.488rem;
+  --heading-2: 2.074rem;
+  --heading-3: 1.728rem;
+  --heading-4: 1.44rem;
+  --heading-5: 1.2rem;
+  --heading-6: 1rem;
+
+  --paragraph-large: var(--heading-5);
+  --paragraph-regular: var(--heading-6);
+  --paragraph-small: 0.833rem;
+  --paragraph-extra-small: 0.694rem;
+//-------------- FONT [ END ] --------------//
+
+//-------------- BORDER [ START ] --------------//
   --border: 1px solid var(--gray-300);
-  --border-ring: 0 0 0 3px var(--blue-300);
-  --border-radius: 4px;
+  --border-ring: 0 0 0 3px var(--cyan-200);
+  --border-ring-error: 0 0 0 3px var(--red-50);
+  --border-radius: .25rem;
+//-------------- BORDER [ END ] --------------//
+
+//-------------- SCROLLBAR [ START ] --------------//
+  --scrollbar-track: var(--gray-100);
+  --scrollbar-thumb: var(--gray-300);
+//-------------- SCROLLBAR [ END ] --------------//
+
+  --box-shadow-sm: 0 3px 6px rgba(0,0,0,0.10);
 }

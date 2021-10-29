@@ -1,39 +1,107 @@
+//-------------- HEADINGS [ START ] --------------//
 h1,
 .h1 {
-  font-size: var(--text-xl);
+  font-size: var(--heading-1);
   line-height: 2.25rem;
 }
 
 h2,
 .h2 {
-  font-size: var(--text-lg);
+  font-size: var(--heading-2);
   line-height: 2rem;
 }
 
 h3,
 .h3 {
-  font-size: var(--text-md);
+  font-size: var(--heading-3);
   line-height: 1.75rem;
 }
 
 h4,
 .h4 {
-  font-size: var(--text-base);
+  font-size: var(--heading-4);
   line-height: 1.5rem;
 }
 
 h5,
 .h5 {
-  font-size: var(--text-sm);
+  font-size: var(--heading-5);
   line-height: 1.25rem;
 }
 
 h6,
 .h6 {
-  font-size: var(--text-xs);
+  font-size: var(--heading-6);
   line-height: 1rem;
 }
+//-------------- HEADINGS [ END ] --------------//
 
+//-------------- DISPLAY [ START ] --------------//
+// Display font sizes are commonly use for marketing
+.display-1 {
+  font-size: var(--display-1);
+}
+
+.display-2 {
+  font-size: var(--display-2);
+}
+
+.display-3 {
+  font-size: var(--display-3);
+}
+//-------------- DISPLAY [ END ] --------------//
+
+//-------------- PARAGRAPH [ START ] --------------//
+.paragraph-large {
+  font-size: var(--paragraph-large);
+}
+
+.paragraph-regular {
+  font-size: var(--paragraph-regular);
+}
+
+.paragraph-small {
+  font-size: var(--paragraph-small);
+}
+
+.paragraph-extrasmall {
+  font-size: var(--paragraph-extra-small);
+}
+//-------------- PARAGRAPH [ END ] --------------//
+
+//-------------- FONT WEIGHTS [ START ] --------------//
+.font-black {
+  font-weight: var(-font-black);
+}
+
+.font-semibold {
+  font-weight: var(--font-semibold);
+}
+
+.font-bold {
+  font-weight: var(--font-bold);
+}
+
+.font-regular {
+  font-weight: var(--font-regular);
+}
+
+.font-light {
+  font-weight: var(--font-light);
+}
+//-------------- FONT WEIGHTS [ END ] --------------//
+
+//-------------- FONT FAMILY [ START ] --------------//
+.font-hero {
+  font-family: var(--font-hero);
+}
+
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+//-------------- FONT FAMILY [ END ] --------------//
+
+//-------------- SETTING DEFAULT FONT WEIGHT FOR HEADINGS & DISPLAY [ START ] --------------//
 h1,
 h2,
 h3,
@@ -45,6 +113,10 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
-  font-weight: var(--font-bold);
+.h6,
+.display-1,
+.display-2,
+.display-3{
+  @extend .font-semibold;
 }
+//-------------- SETTING DEFAULT FONT WEIGHT FOR HEADINGS & DISPLAY [ END ] --------------//

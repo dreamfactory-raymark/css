@@ -1,0 +1,15 @@
+.icon {
+
+  &-small {
+    font-size: var(--paragraph-small);
+  }
+
+  &-regular {
+    font-size: var(--paragraph-regular);
+  }
+
+  &-large {
+    font-size: var(--paragraph-large);
+  }
+}
+

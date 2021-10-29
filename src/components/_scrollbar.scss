@@ -1,0 +1,21 @@
+/* width */
+.sidebar__menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.sidebar__menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: var(--scrollbar-track);
+}
+
+/* Handle */
+.sidebar__menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--scrollbar-thumb);
+}
+
+.scrollbar-palenke {
+  --scrollbar-track: var(--palenke-blue-300);
+  --scrollbar-thumb: var(--palenke-blue-100);
+}

@@ -1,0 +1,21 @@
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--gray-50);
+
+  &-neutral {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("img/avatar/neutral.png");
+  }
+
+  &-male {
+    background-image: url("img/avatar/male.svg");
+  }
+
+  &-female {
+    background-image: url("img/avatar/female.svg");
+  }
+}
